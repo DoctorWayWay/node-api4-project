@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// ===== IMPORTS =====
+import React from "react"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1>Welcome to my first Heroku deployment!</h1>
+      <div className="instructions">
+        <h3>Here are the URL paths for the API</h3>
+        <p>[GET] - /api/users</p>
+        <p>[POST] - /api/register</p>
+        <p>[POST] - /api/login</p>
+      </div>
     </div>
   );
 }
